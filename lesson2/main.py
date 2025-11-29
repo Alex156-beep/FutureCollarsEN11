@@ -1,3 +1,5 @@
+import sys
+
 print("Hello world")
 print("Hello world")
 
@@ -126,6 +128,18 @@ print("Adults: {}, Children: {}, glasses of wine: {}, Income: {}"
       .format(adult_count, children_count, wine_count, adult_count * 400 + children_count * 200 + wine_count * 10))
 
 # ===========================FOR LOOP===================================
-for i in range(0, 10):
+for i in range(0, 10, 2):  # start, stop, step
     print(f"Loop iteration: {i}")
-    
+
+print()
+
+for i in range(10, -1, -1):
+    if i == 5:
+        continue
+    print(f"Loop iteration: {i}")
+
+# ============================Arguments from terminal======================
+# print(sys.argv[0])
+# print(sys.argv[1])
+# print(sys.argv[2])
+# should be without #
