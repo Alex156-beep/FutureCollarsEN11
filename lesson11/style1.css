@@ -1,0 +1,13 @@
+body{
+    background-color: lighgreen;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+}
+#div1{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: yellow;
+    margin: 10px;
+}

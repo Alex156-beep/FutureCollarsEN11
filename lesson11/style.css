@@ -1,0 +1,71 @@
+/* Id - unique */
+#first-element{
+        background-color: red;
+        height: 100px;
+}
+
+/* Class - not unique */
+.change-color-to-red{
+    color: red;
+}
+
+.change-color-to-blue{
+    color: blue;
+}
+
+/* Global - to every tag */
+body{
+    background-color: lightblue;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+p{
+    font-family: "Arial, sans-serif";
+    text-align: center;
+}
+
+table, th, td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: #42f5cb;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #f0c756
+}
+
+#wrapper{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+}
+
+#div1{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: yellow;
+    margin: 10px;
+}
+
+#div2{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: blue;
+    margin: 10px;
+}
+
+#div3{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: red;
+    margin: 10px;
+}

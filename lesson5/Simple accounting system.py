@@ -199,7 +199,7 @@ class AccountingSystem:
 # ENTRY POINT
 # ============================================================
 
-print(">>> File loaded") # should ALWAYS show when you run the script
+print(">>> File loaded")
 
 if __name__ == "__main__":
     print(">>> Inside main block")
